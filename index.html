@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press Any Key to Start</h1>
+  <div class="container">
+    <div lass="row">
+
+      <button type="button" id="green" class="btn green">
+
+      </button>
+
+      <button type="button" id="red" class="btn red">
+
+      </button>
+    </div>
+
+    <div class="row">
+
+      <button type="button" id="yellow" class="btn yellow">
+
+      </button>
+      <button type="button" id="blue" class="btn blue">
+
+      </button>
+
+    </div>
+
+    <h3 class="help-btn">How To Play</h3>
+    <div class="rules">
+      <ol>
+        <li>Simon will give the first signal. Repeat the signal by pressing the same color button.
+        </li>
+        <li>Simon will give one more signal. Repeat the signals by pressing the same color button, in order.
+        </li>
+        <li>Simon will give one more signal. Repeat the signals by pressing the same color button, in order.
+        </li>
+        <li>Continue playing as long as you can repeat each sequence of signals correctly.
+        </li>
+        <li>If you fail to repeat a sequence exactly, Simon responds with a "RAZZ" sound. This means you've lost, and
+          the sequence of signals ends.
+        </li>
+      </ol>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
