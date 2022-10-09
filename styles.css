@@ -11,6 +11,10 @@ body {
   color: #FEF2BF;
 }
 
+h1 {
+  line-height: 1.6;
+}
+
 .container {
   display: block;
   width: 75%;

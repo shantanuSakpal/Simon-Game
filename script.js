@@ -28,7 +28,7 @@ function cssWhenPressed() {
 
 function cssWhenLost() {
       $("body").addClass("red-background");
-      $("h1").html("You Lose ! Click <span class=\"start-btn\">Here</span> to restart.")
+      $("h1").html("You Lose ! Reload to restart.")
 }
 
 function playSound(color) {
