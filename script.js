@@ -5,7 +5,7 @@ let colorPattern = [];
 let playerPattern = [];
 let i = 0;
 
-$(document).keydown(function () {
+$(".start-btn").on("click", function () {
       if (!started) {
             colorPattern = [];
             playerPattern = [];
@@ -28,7 +28,7 @@ function cssWhenPressed() {
 
 function cssWhenLost() {
       $("body").addClass("red-background");
-      $("h1").text("You Lose ! Press any key to restart.")
+      $("h1").html("You Lose ! Click <span class=\"start-btn\">Here</span> to restart.")
 }
 
 function playSound(color) {
